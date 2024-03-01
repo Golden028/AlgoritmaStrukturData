@@ -15,5 +15,6 @@ public class BukuMain11 {
     Buku11 bk2 = new Buku11("Self Reward","Maheera Ayesha",160,29,59000);
     bk2.terjual(11);
     bk2.tampilinformasi();
+    bk2.hitungHargaTotal(1);
   }
 }
