@@ -1,5 +1,3 @@
-package Practicum1;
-
 public class Queue {
   public Queue(int n) {
     max = n;

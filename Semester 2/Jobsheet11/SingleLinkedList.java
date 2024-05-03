@@ -24,14 +24,14 @@ public class SingleLinkedList {
     Node ndInput = new Node(input, null);
     if(isEmpty()) {
       head = ndInput;
-      tail = ndInput
+      tail = ndInput;
     }else{
       ndInput.next = head;
       head = ndInput;
     }
   }
 
-  public void addlast(int input) {
+  public void addLast(int input) {
     Node ndInput = new Node(input, null);
     if(isEmpty()) {
       head = ndInput;
